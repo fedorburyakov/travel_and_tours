@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel & tours</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header pb-5">
+    <img src="/images/circle-1.svg" alt="circle-1" class="circle-1">
+    <img src="/images/circle-2.svg" alt="circle-2" class="circle-2">
+    <img src="/images/plus-1.svg" alt="plus-1" class="plus-1">
+    <div class="container">
+      <div class="row align-items-center py-3 flex-row">
+        <div class="col-1 header-logo">
+          <svg class="icons" width="41" height="41">
+            <use href="images/icons.svg#logo"></use>
+          </svg>
+        </div>
+        <ul class="col header-menu d-flex justify-content-end align-items-center">
+          <li class="header-menu-item"><a href="#" class="header-menu-links">Home</a></li>
+          <li class="header-menu-item"><a href="#" class="header-menu-links">Destinations</a></li>
+          <li class="header-menu-item"><a href="#" class="header-menu-links">About</a></li>
+          <li class="header-menu-item"><a href="#" class="header-menu-links">Partner</a></li>
+        </ul>
+        <ul class="col-3 header-buttons d-flex justify-content-between">
+          <li class="header-menu-button menu-login">
+            <btn type="submit" class="login" href="#">Login</btn>
+          </li>
+          <li class="header-menu-button menu-register">
+            <btn type="submit" class="register" href="#">Register</btn>
+          </li>
+        </ul>
+      </div>
+      <div class="row d-flex justify-content-between pt-5">
+        <div class="col-5">
+          <h1 class="header-title">Explore and<br>Travel</h1>
+          <form action="" method="post" class="holiday-finder">
+            <p class="finder-title">Holiday finder</p>
+            <div class="selectors">
+              <div class="selectors-row">
+                <div class="selector-div">
+                  <select class="holiday-selector" name="location-choice" id="location">
+                    <option selected>Location</option>
+                  </select>
+                </div>
+                <div class="selector-div">
+                  <select class="holiday-selector" name="activity-choice" id="activity">
+                    <option selected>Activity</option>
+                  </select>
+                </div>
+              </div>
+              <div class="selectors-row">
+                <div class="selector-div">
+                  <select class="holiday-selector" name="grade-choice" id="grade">
+                    <option selected>Grade</option>
+                  </select>
+                </div>
+                <div class="selector-div">
+                  <select class="holiday-selector" name="date-choice" id="date">
+                    <option selected>Date</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <button type="submit" href="#" class="explore-button">Explore</button>
+          </form>
+        </div>
+        <div class="col-6">
+          <img src="images/thousand-01.png" class="header-image" alt="Man in Space">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="section-2 pb-5">
+      <img src="/images/plus-2.svg" alt="plus-2" class="plus-2">
+      <img src="/images/circle-3.svg" alt="circle-3" class="circle-3">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-6">
+            <img src="/images/thousand-02.png" alt="People in the air" class="section-2-image">
+          </div>
+          <div class="col-5">
+                    <div class="section-2-text">
+                      <h2 class="section-2-title">A new way to explore the world</h2>
+                      <div class="section-2-description">
+                        For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                      </div>
+                      <button class="section-2-button">Learn more</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container section-3 pb-5">
+      <img src="/images/plus-3.svg" alt="plus-3" class="plus-3">
+      <img src="/images/circle-4.svg" alt="circle-4" class="circle-4">
+      <img src="/images/circle-5.svg" alt="circle-5" class="circle-5">
+      <div class="row d-flex flex-row align-items-center justify-content-between pb-3">
+        <h2 class="col-4 section-3-title">Featured destinations</h2>
+        <div class="col-2">
+          <div class="section-3-view-all">
+            <div class="view-all">View all</div>
+            <img src="images/vector-left.svg" alt="vector-left" class="view-all-vector">
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-4 section-3-image-card section-3-image-card-1">
+          <img src="images/nature-01.png" alt="Image 1" class="section-3-image">
+          <div class="section-3-image-description"><strong>Raja Ampat</strong><br>Indonesia</div>
+        </div>
+        <div class="col-4 section-3-image-card section-3-image-card-2">
+          <img src="images/nature-02.png" alt="Image 2" class="section-3-image">
+          <div class="section-3-image-description"><strong>Fanjingshan</strong><br>China</div>
+        </div>
+        <div class="col-4 section-3-image-card section-3-image-card-3">
+          <img src="images/nature-03.png" alt="Image 3" class="section-3-image">
+          <div class="section-3-image-description"><strong>Vevey</strong><br>Switzerland</div>
+        </div>
+        <div class="col-4 section-3-image-card section-3-image-card-4">
+          <img src="images/nature-04.png" alt="Image 4" class="section-3-image">
+          <div class="section-3-image-description"><strong>Skadar</strong><br>Montenegro</div>
+        </div>
+      </div>
+    </div>
+    <div class="section-4 pb-5">
+      <img src="/images/plus-4.svg" alt="plus-4" class="plus-4">
+      <img src="/images/plus-5.svg" alt="plus-5" class="plus-5">
+      <img src="/images/circle-6.svg" alt="circle-6" class="circle-6">
+      <div class="container pb-5">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-5">
+            <div class="section-4-text">
+              <h2 class="section-4-title">Guides by Thousand Sunny</h2>
+              <div class="section-4-description">
+                Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.
+              </div>
+              <button class="section-4-button">Download</button>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="/images/thousand-03.png" alt="People with phone" class="section-4-image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5 pb-5">
+      <img src="/images/plus-5.svg" alt="plus-6" class="plus-6">
+      <img src="/images/circle-6.svg" alt="circle-7" class="circle-7">
+      <div class="container">
+        <h2 class="section-5-title">Testimonials</h2>
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-6 section-5-text">
+            <div class="stars d-flex justify-content-between">
+              <img src="images/star.svg" alt="icon: star">
+              <img src="images/star.svg" alt="icon: star">
+              <img src="images/star.svg" alt="icon: star">
+              <img src="images/star.svg" alt="icon: star">
+              <img src="images/star.svg" alt="icon: star">
+            </div>
+            <div class="section-5-description">
+              “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+            </div>
+            <div class="section-5-author">
+              <div class="author-name">
+                Edward Newgate
+              </div>
+              <div class="author-profession">
+                Founder Circle
+              </div>
+            </div>
+          </div>
+          <div class="col-5 section-5-image-card align-content-center">
+            <img src="images/photo.png" alt="Photo" class="section-5-image">
+            <div class="section-5-image-buttons d-flex justify-content-between">
+              <img src="images/previous.svg" alt="button: previous" height="40" width="40">
+              <img src="images/next.svg" alt="button: next" height="40" width="40">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container section-6 pb-5">
+      <img src="/images/plus-3.svg" alt="plus-3" class="plus-3">
+      <img src="/images/circle-4.svg" alt="circle-4" class="circle-4">
+      <img src="/images/circle-5.svg" alt="circle-5" class="circle-5">
+      <div class="row d-flex flex-row align-items-center justify-content-between pb-3">
+        <h2 class="col-4 section-6-title">Trending stories</h2>
+        <div class="col-2">
+          <div class="section-6-view-all">
+            <div class="view-all">View all</div>
+            <img src="images/vector-left.svg" alt="vector-left" class="view-all-vector">
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-4 section-6-image-card section-6-image-card-1">
+          <img src="images/story-1.png" alt="Story 1" class="section-6-image">
+          <div class="section-6-image-title">The many benefits of
+          taking a healing holiday</div>
+          <div class="section-6-image-description">‘Helaing holidays’ are on the rise
+          tohelp maximise your health and happines...</div>
+          <a href="" class="section-6-image-button">Read more</a>
+        </div>
+        <div class="col-4 section-6-image-card section-6-image-card-2">
+          <img src="images/story-2.png" alt="Story 2" class="section-6-image">
+          <div class="section-6-image-title">The best Kyoto restaurant
+          to try Japanese food</div>
+          <div class="section-6-image-description">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+          to visit...</div>
+          <a href="" class="section-6-image-button">Read more</a>
+        </div>
+        <div class="col-4 section-6-image-card section-6-image-card-3">
+          <img src="images/story-3.png" alt="Story 3" class="section-6-image">
+          <div class="section-6-image-title">Skip Chichen Itza and head
+          to this remote Yucatan</div>
+          <div class="section-6-image-description">It’s remote and challenging to get,
+          but braving the jungle and exploring
+          these ruins without the...</div>
+          <a href="" class="section-6-image-button">Read more</a>
+        </div>
+        <div class="col-4 section-6-image-card section-6-image-card-4">
+          <img src="images/story-4.png" alt="Story 4" class="section-6-image">
+          <div class="section-6-image-title">Surf’s up at these beginner
+          spots around the world</div>
+          <div class="section-6-image-description">If learning to surf has in on your to-
+          do list for a while, the good news
+          is: it’s never too late...</div>
+          <a href="" class="section-6-image-button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row row-footer">
+        <div class="col-4 mb-0">
+          <svg class="icons header-logo" width="41" height="41">
+            <use href="images/icons.svg#logo"></use>
+          </svg>
+          <p class="footer-description">Plan and book your perfect trip with
+          expert advice, travel tips destination
+          information from us</p>
+          <span class="footer-copyright">©2020 Thousand Sunny. All rights reserved</span>
+        </div>
+        <!-- /.col-3 -->
+        <div class="col-3">
+          <h3 class="footer-title">Destinations</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="tel:+78002020300" class="footer-list-link">Africa</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="mailto:info@findyourjob.net" class="footer-list-link">Antarctica</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Asia</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Europe</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">America</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.col-3 -->
+        <div class="col-3">
+          <h3 class="footer-title">Shop</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Destination Guides</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Pictorial & Gifts</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Special Offers</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Delivery Times</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">FAQs</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.col-3 -->
+        <div class="col-2">
+          <h3 class="footer-title">Interests</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Adventure Travel</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Art And Culture</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Wildlife And Nature</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Family Holidays</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">Food And Drink</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.col-3 -->
+      </div>
+      <!-- /.row -->
+      <div class="row links justify-content-center mt-3">
+        <div class="col-4 logo-links">
+          <a href="#" class="link-social">
+            <svg class="icons logo-link" width="25" height="20">
+              <use href="images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+          <a href="#" class="link-social">
+            <svg class="icons logo-link" width="10" height="22">
+              <use href="images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+          <a href="#" class="link-social">
+            <svg class="icons logo-link" width="22" height="22">
+              <use href="images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+          <a href="#" class="link-social">
+            <svg class="icons logo-link" width="23" height="22">
+              <use href="images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+          <a href="#" class="link-social">
+            <svg class="icons logo-link" width="28" height="20">
+              <use href="images/icons.svg#youtube"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+</body>
+</html>
